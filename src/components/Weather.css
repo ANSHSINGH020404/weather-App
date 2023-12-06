@@ -1,0 +1,49 @@
+.container{
+    width: 602px;
+    height: 900px;
+    background-color: rgb(84, 8, 197);
+    border-radius: 20px;
+   margin: auto;
+   margin-top: 10px;
+   box-shadow:12px 2px 12px 2px rgb(91, 91, 227);
+}
+
+.search-box{
+  display: flex;
+  justify-content: center;
+  gap: 14px;
+  padding: 62px;
+
+}
+.search-box input{
+    width: 362px;
+    height: 78px;
+    border-radius: 40px;
+    border: 2px solid gray;
+    margin-top: 40px;
+    padding: 40px;
+}
+.search-icon{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 78px;
+    height: 78px;
+    background: #ebfffc;
+    border-radius: 40px;
+    cursor: pointer;
+    margin-top: 35px;
+    margin-left: 5px;
+
+}
+.cloud-icon  img {
+    margin-top: 50px;
+   margin-left: 45vw;
+   
+}
+.weather-temp{
+    display: flex;
+    justify-content: center;
+    font-size: 120px;
+    font-weight: 400;
+}
